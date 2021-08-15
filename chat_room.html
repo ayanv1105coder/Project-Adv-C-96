@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwitter Room</title>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="chat.css">
+</head>
+<body>
+<div class="container">
+	<br>
+	<br>
+	<center>
+		<div id="div">
+			<br>
+		<h1 class="header">	
+			WebsChat	
+		</h1>
+		<h3 class="color_orange" id="user_name"></h3>
+		<div class="form-group input_div_room_page">
+			<label>#Add Room:</label>
+			<input type="text" id="room_name" class="form-control" placeholder=" Put In The Room Name ">
+		</div>
+		<button class="btn btn-danger" onclick = "addRoom()">#Add Room</button>
+		<h3 class="color_orange">❗ℋ𝟈𝛤𝟈 𐌀𝛤𝟈 ꗟ𝝷ᗰ𝟈 ◯⨎ 〒𝝷Ժลყ'ꗟ 𝓜𝝷ꗟ七 〒𝛤𝟈𝝥ԺĪ𝝥𝙜 𐌀𝝥Ժ ╚ĪҜ𝟈Ժ Ɍ𝝷𝝷ᗰꗟ❗</h3>
+		<br>
+		<div id="output"></div>
+		<br>
+		<br>
+		<br>
+		<br>
+	</div>
+	<button id="logout" class="glyphicon glyphicon-log-out btn btn-warning" onclick="logout()">    Logout</button>
+		<br>
+		<br>
+	</center>
+</div>
+<script src="chat_room.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WebsChat</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="chat.css">
+<script src="chat.js"></script>
+</head>
+<body>
+    <div class="container">
+<center>
+
+	<h1 class="header">	
+		WebsChat<sup>
+	</sup>
+</h1>
+    <br>
+    <br>
+    <br>
+	<div class="container h-100">
+		<div class="d-flex justify-content-center h-100">
+			<div class="user_card">
+				<div class="d-flex justify-content-center">
+					<div class="brand_logo_container">
+						<img src="m2.png" class="brand_logo" alt="Logo">
+					</div>
+				</div>
+                <div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <span><b><u>🔐 Username</u></b></span> 
+                    <input type="text" id="user_name" class="form-control" placeholder="♂️ Username" width="80px" height="20px">
+                    <br>
+                    <br>
+                    <span><b><u>🗓️ Date & Time Of Birth</u></b></span>
+                    <input type="datetime-local" id="birth" class="form-control" placeholder="📅 Birth Date And Time">
+                    <br>
+                    <br>
+                    <button id="login_button" class="btn btn-danger" onclick="addUser()" style="background-color: firebrick; color: red; border-radius:10px; width:100px; height: 100px; font-size: large; font-family: 'Yeon Sung', cursive; border-width: 10px;">Log in</button>
+                    <br>
+                    <br>
+                    <span><input type="checkbox" id="ianar_cb" name="vehicle1" value="Bike"></span>
+                    <label><b><i>𝕚 @𝓶 N0ţ @ R0B0𝐓</i></b></label>
+                </div>
+			</div>
+		</div>
+	</div>
+</center>
+</div>
+</body>
+</html>
